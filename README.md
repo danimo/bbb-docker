@@ -32,11 +32,8 @@ Version: 3.0.0-beta.5 | [Changelog](CHANGELOG.md) | [Issues](https://github.com/
     3. Ensure you use a docker version ≥ 23.0 : `$ docker --version`
 3. Clone this repository
    ```sh
-   $ git clone https://github.com/bigbluebutton/docker.git bbb-docker
+   $ git clone --recurse-submodules -j8 https://github.com/danimo/bbb-docker.git bbb-docker
    $ cd bbb-docker
-
-   # use the more stable main branch (sometimes older)
-   $ git checkout main 
    ```
 4. Run setup:
    ```bash
